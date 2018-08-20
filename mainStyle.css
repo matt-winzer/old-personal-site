@@ -1,0 +1,130 @@
+body {
+	text-align: center;
+	line-height: 1.5;
+	font-family: Trebuchet MS, sans-serif;
+	background-color: #000000;
+}
+
+p {
+	text-align: center;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.container {
+	/*border: 1px solid red;*/
+	padding: 1em;
+	margin-bottom: 1em;
+	background-color: #82B7E0;
+	border-left: 2px solid #2E81C0;
+	border-right: 2px solid #2E81C0;
+	border-bottom: 2px solid #2E81C0;
+}
+
+.containerHeader {
+	background-color: #000000;
+	/*border: 1px solid red;*/
+	/*padding: 1em;*/
+	/*border-top-right-radius: 0;*/
+	/*border-top-left-radius: 0;*/
+}
+
+#header {
+	/*border: 1px solid black;*/
+}
+
+#header img {
+	width: 960px;
+}
+
+#navigation {
+	margin: 0 auto;
+	background-color: #2E81C0;
+	/*margin-bottom: 1em;*/
+}
+
+#navigation ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+#navigation li {
+	display: inline;
+}
+
+#navigation a:link,
+#navigation a:visited {
+	padding: .5em .75em;
+	display: inline-block;
+	font-size: 1em;
+	color: white;
+	background-color: #2E81C0;
+	text-decoration: none;
+	border-bottom: 5px solid #2E81C0;
+}
+
+#navigation a:hover,
+#navigation a.navCurrent {
+	text-decoration: none;
+	background-color: #82B7E0 /*#0E3B6B*/;
+	border-top: 5px solid #2E81C0;
+	border-bottom: 5px solid #82B7E0;
+}
+
+.content {
+	/*border: 1px solid black;*/
+	font-family: Verdana, sans-serif;
+}
+
+.textHighlight {
+	/*Dark Blue with Blue Shadow*/
+	color: #001468;
+	text-shadow: -1px 0 #2E81C0, 0 1px #2E81C0, 1px 0 #2E81C0, 0 -1px #2E81C0;
+	/*Thicker Shadow*/
+	/*text-shadow: -2px 0 #2E81C0, 0 2px #2E81C0, 2px 0 #2E81C0, 0 -2px #2E81C0;*/
+}
+
+/*/.textHighlight /*Blue with Green Shadow*/{
+	color: #2E81C0;
+	text-shadow: -1px 0 #40F32B, 0 1px #40F32B, 1px 0 #40F32B, 0 -1px #40F32B;*/
+	/*Thicker Shadow*/
+	/*text-shadow: -2px 0 #40F32B, 0 2px #40F32B, 2px 0 #40F32B, 0 -2px #40F32B;*/
+}
+
+.content h1 {
+	font-size: 2em;
+	margin-bottom: .25em;
+	margin-top: .25em;
+}
+
+.content h2 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin-bottom: .25em;
+	margin-top: .25em;
+}
+
+.content h3 {
+	font-size: 1em;
+	font-weight: bold;
+	/*text-transform: uppercase;*/
+	/*color: #2E81C0;*/
+}
+
+.content p {
+	font-size: 1em;
+}
+
+.content img {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+/*
+.content iframe {
+	margin: 1.5em 0;
+	border: 1px solid black;
+}
+*/
